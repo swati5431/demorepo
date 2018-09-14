@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 		glue={"stepdefinition"},
 	format= {"pretty","html:test-output"},
 	dryRun= false,
-	monochrome= true,
+	monochrome= false,
 	strict= true
 	//tags= {"@Smoketest" , "~@Regressiontest"}
 		
